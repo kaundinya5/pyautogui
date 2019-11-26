@@ -29,7 +29,8 @@ setup(
     test_suite='tests',
     install_requires=['pyobjc-core;platform_system=="Darwin"', 'pyobjc;platform_system=="Darwin"',
                       'python3-Xlib;platform_system=="Linux" and python_version>="3.0"', 'Xlib;platform_system=="Linux" and python_version<"3.0"',
-                      'pymsgbox', 'PyTweening>=1.0.1', 'pyscreeze>=0.1.21', 'pygetwindow>=0.0.5', 'mouseinfo'],
+                      'pymsgbox', 'PyTweening>=1.0.1', 'pygetwindow>=0.0.5', 'mouseinfo',
+                      'pyscreeze @ git+git://github.com/kaundinya5/pyscreeze.git#egg=pyscreeze'],
     keywords="gui automation test testing keyboard mouse cursor click press keystroke control",
     classifiers=[
         'Development Status :: 4 - Beta',
